@@ -8,7 +8,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 70px;
+    padding: 0 50px;
     background-color: #dadada;
     
 }
@@ -17,7 +17,7 @@ body{
 }
 .menu{
     display: flex;
-    gap: 40px;
+    gap: 30px;
 }
 .redes-sociais{
     display: flex;
@@ -52,8 +52,12 @@ body{
     font-size: 70px;
 }
 .foto{
-    background-color: azure;
     background-repeat: no-repeat;
+    width: auto
+}
+.foto img{
+    width: 80%;
+    height: 70%;
 }
 .container-sobre{
     background-color: #ddb38c;
@@ -66,18 +70,21 @@ body{
     gap: 70px;
 }
 .img-sobre{
-    gap: 30px;
+    gap: 20px;
     display: flex;
     flex-direction: column;
-
+    width: auto;
 }
-.img-sobre h1{
 
+.img-sobre img{
+    width: 70%;
+    height: 70%;
 }
 .sobre p{
     width: 500px;
     
 }
+/*container cardapio*/
 .container-cardapio{
     background-image: url(./src/fundocardápio.jpg);
     background-position: center;
@@ -86,18 +93,22 @@ body{
     height: 80vh;
     display: flex;
     justify-content: center;
-}
-.cardapio{
-    background-color: #f38b2a;
-    width: 25%;
-    height: 60%;
-    border-radius: 0 0 20% 20%;
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 60px;
+    gap: 30px;
 }
+.foto-esquerda{
+    background-color: #212E36;
+    height: 50%;
+}
+.foto-meio{
+    background-color: #f38b2a;
+    height: 50%;
+}
+.foto-direita{
+background-color: #212E36;
+height: 50%;
+}
+/* Estilizanção do container contato */
 .container-contato{
     height: 80vh;
     background-color: #000;
