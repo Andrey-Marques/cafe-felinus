@@ -85,8 +85,15 @@ body{
     
 }
 /*container cardapio*/
+.adote-gato{
+    display: flex;
+    flex-direction: column;
+}
+.adote-gato h1{
+    align-self: center;
+}
 .container-cardapio{
-    background-image: url(./src/fundocardápio.jpg);
+    background-color: #000;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -96,23 +103,49 @@ body{
     align-items: center;
     gap: 30px;
 }
-.foto-esquerda{
-    background-color: #212E36;
-    height: 50%;
+.gatos{
+    border-radius: 10%;
 }
-.foto-meio{
+.gatos-secundarios{
+    height: 60%;
+    width: 20%;
+}
+/* -------Estilização da foto anterior----*/
+.gato-anterior{
+    background-size: cover;
+    background-position: center;
+}
+.gato-anterior:hover{
+    cursor: pointer;
+}
+/* -----Estilização da foto principal-----*/
+.gato-selecionado{
     background-color: #f38b2a;
-    height: 50%;
+    height: 80%;
+    background-size: cover;
+    width: 25%;
+    background-position: center;
 }
-.foto-direita{
-background-color: #212E36;
-height: 50%;
+/* .gato-selecionado:hover{
+    cursor: pointer;
+} */
+/* ---------Estilização da proxima foto-------*/
+.gato-posterior{
+   
+    background-size: cover;
+    background-position: center;
+}
+.gato-posterior:hover{
+    cursor: pointer;
+}
+.escondidos{
+    display: none;
 }
 /* Estilizanção do container contato */
 .container-contato{
     height: 80vh;
     background-color: #000;
-    background-image: url(./src/backgroundCafe.jpg);
+    background-image: url(./src/fundos/backgroundCafe.jpg);
     background-position: center;
     background-size: cover;
     color: #f38b2a;
